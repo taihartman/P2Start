@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title></title>
+        <script>
+            /*
+            Closure....
+            java script sees that the variable is accessable
+            so it keeps it around
+
+
+            a closure is the combination of a function bundled together (enclosed)
+            with references to its surrounding state (the lexical environment)
+            */
+            function doIt(){
+                var num = 666;
+                //store accessors to num in the global object
+                gGetNum = function(){
+                    console.log(num);
+                }
+                gAddNum = function(){
+                    num++;
+                }
+                gReset = function(){
+                    num=0;
+                }
+
+
+
+            }
+
+            doIt();
+
+
+        </script>
+
+    </head>
+    <body>
+        
+        
+    </body>
+</html>
