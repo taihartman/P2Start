@@ -4,11 +4,12 @@
   <meta charset="utf-8" />
   <title>340 p2 ex</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script type="text/javascript">
+<script src="jquery-ui-1.13.1/jquery-ui.js">
 	
 	
 </script>
-<link rel="stylesheet" type="text/css" href="navCSS.css">
+<link rel="stylesheet" type="text/css" href="CSS.css">
+<link rel="stylesheet" type="text/css" href="jquery-ui-1.13.1/jquery-ui.css">
 <script src="click-scroll.js"></script>
 <script src="script.js"></script>
 
@@ -17,7 +18,7 @@
 <body>
 	<nav id="navigation">
 		<ul class="menu">
-		  <li><a href="#section_1">Section 1</a></li>
+		  <li><a href="#section_1">About</a></li>
 		  <li><a href="#section_2">Section 2</a></li>
 		  <li><a href="#section_3">Section 3</a></li>
 		  <li><a href="#section_4">Section 4</a></li>
@@ -25,13 +26,28 @@
 		</ul>
 	  </nav>
 	<div id="section_1">
-		<h2>iSchool Site</h2>
-		<div id="content"></div>
-		<section id="minors"></section>
+		<div id="section_1_content" >
+			<div id="about"></div>
+			<br>
+			
+		</div>
+		<!-- <section id="minors"></section>
+		<div id="people"></div> -->
+	</div>
+	<div id="section_2">
+		<div id="section_2_content" >
+			<h1>Undergraduate Degrees</h1>
+			<div id="undergrad_accordion"></div>
+			<br>
+			<h1>Graduate Degrees</h1>
+			<div id="graduate_accordion"></div>
+			
+		</div>
+		
+	</div>
+	<div id="section_3">
 		<div id="people"></div>
 	</div>
-	<div id="section_2"></div>
-	<div id="section_3"></div>
 	<div id="section_4"></div>
 	<div id="section_5"></div>
   
