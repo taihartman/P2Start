@@ -10,7 +10,6 @@ $.each(sectionArray, function(index, value){
          var docScroll = $(document).scrollTop();
          var docScroll1 = docScroll + 1;
          
-        
          if ( docScroll1 >= offsetSection ){
              $('li a').removeClass('active');
              $('li a:link').addClass('inactive');  
